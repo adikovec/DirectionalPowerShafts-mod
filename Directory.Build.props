@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <GameManagedDir Condition="'$(GameManagedDir)' == '' and '$(TIMBERBORN_GAME_DIR)' != ''">$(TIMBERBORN_GAME_DIR)/Timberborn_Data/Managed</GameManagedDir>
+  </PropertyGroup>
+  <Target Name="ValidateTimberbornGamePath" BeforeTargets="ResolveReferences" Condition="'$(GameManagedDir)' == ''">
+    <Error Text="Set TIMBERBORN_GAME_DIR to your Timberborn installation directory, or pass -p:GameManagedDir=/path/to/Timberborn_Data/Managed." />
+  </Target>
+</Project>

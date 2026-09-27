@@ -1,0 +1,7 @@
+{
+  "Name": "Directional Power Shafts",
+  "Version": "0.1.4",
+  "Id": "directional-power-shafts",
+  "MinimumGameVersion": "1.1.2.4",
+  "Description": "Adds terrain-style construction order arrows to Power Shafts and Vertical Power Shafts."
+}
