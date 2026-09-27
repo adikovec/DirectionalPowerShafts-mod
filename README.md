@@ -4,6 +4,8 @@ Adds construction order arrows to Timberborn's vanilla **Power Shaft** and
 **Vertical Power Shaft**, for both Folktails and Iron Teeth. Tested in game on
 Timberborn **1.1.2.4** under Steam Proton.
 
+[Steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3809124987)
+
 The Timberborn manifest `Id` is `directional-power-shafts`. It identifies the
 mod to Timberborn and is separate from the Steam Workshop `ItemId`, which Steam
 assigns to a Workshop item.
